@@ -20,7 +20,7 @@ body {
     font-weight: 400;
 }
 
-.derecha { float: right; }
+.derecha { float: right; width: auto; }
 .rojo { color: #FF5049 !important; }
 .rojofocus:focus { border: 1px solid #FF5049 !important; }
 

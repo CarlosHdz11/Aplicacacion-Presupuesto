@@ -177,7 +177,7 @@ const cargarIngresos = () => {
             event.preventDefault();
         }
         else if(tipo.value=="egreso"){
-            egresos.push(new egreso(descripcion.value, valor.value))
+            egresos.push(new egreso(descripcion.value, +valor.value))
             cargarCabecero();
             cargarEgresos()
     }
